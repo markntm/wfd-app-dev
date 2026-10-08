@@ -407,30 +407,45 @@ const Home = () => (
 
     {/* Mailing List */}
 {/* Mailing List */}
-<section className="section-spacing">
-  <Container>
-    <Row className="justify-content-center">
-      <Col md={8} lg={6} className="text-center">
-        <h2 className="display-5 fw-bold deep-sea-text">
-          Join Our Mailing List
-        </h2>
+    <section className="section-spacing">
+      <Container>
+        <Row className="justify-content-center">
+          <Col md={8} lg={6} className="text-center">
+            <h2 className="display-5 fw-bold deep-sea-text">
+              Join Our Mailing List
+            </h2>
 
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeoPsT4NDqSX_ywhbw-R-kbwmORkwoOVO3WHNucIc4JGd4iiQ/viewform"
-          className="btn btn-lg text-white my-4"
-          style={{
-            backgroundColor: "var(--sky-blue)",
-            borderColor: "var(--sky-blue)",
-          }}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          CLICK HERE
-        </a>
-      </Col>
-    </Row>
-  </Container>
-</section>
+            <div className="d-flex justify-content-center gap-3">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeoPsT4NDqSX_ywhbw-R-kbwmORkwoOVO3WHNucIc4JGd4iiQ/viewform"
+                className="btn btn-lg text-white"
+                style={{
+                  backgroundColor: "var(--sky-blue)",
+                  borderColor: "var(--sky-blue)",
+                }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                INTERN
+              </a>
+
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeoPsT4NDqSX_ywhbw-R-kbwmORkwoOVO3WHNucIc4JGd4iiQ/viewform"
+                className="btn btn-lg text-white"
+                style={{
+                  backgroundColor: "var(--sky-blue)",
+                  borderColor: "var(--sky-blue)",
+                }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                PARTNER
+              </a>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
   </main>
 );
 
