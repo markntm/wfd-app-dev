@@ -9,7 +9,6 @@ generator client {
   output   = "../src/generated/prisma"
 }
 
-
 datasource db {
   provider = "postgresql"
 }
@@ -39,4 +38,17 @@ model Stuff {
   quantity  Int
   condition Condition @default(good)
   owner     String
+}
+
+model storedFile {
+  id          Int       @id @default(autoincrement())
+  //owner_id    Int?
+  name        String
+  url         String    @unique
+  pathname    String
+  contentType String?
+  //access      List?
+  size        Int
+  createdAt   DateTime  @default(now())
+  deletedAt   DateTime?
 }

@@ -10,4 +10,5 @@
  */
 export type * from './models/User'
 export type * from './models/Stuff'
+export type * from './models/storedFile'
 export type * from './commonInputTypes'

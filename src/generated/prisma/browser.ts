@@ -27,3 +27,8 @@ export type User = Prisma.UserModel
  * 
  */
 export type Stuff = Prisma.StuffModel
+/**
+ * Model storedFile
+ * 
+ */
+export type storedFile = Prisma.storedFileModel
